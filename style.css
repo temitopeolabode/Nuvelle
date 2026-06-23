@@ -1,0 +1,410 @@
+/* .main-container{
+    max-width: 1000px;
+} */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    gap: 30px;
+    background-color: #EEDFD2;
+}
+
+.Premium-Beauty-Collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-title {
+    margin-top: 100px;
+    margin-left: 70px;
+    color: #6B4423;
+    border: 1px #F0ECE9 solid;
+    width: 270px;
+    border-radius: 30px;
+    background-color: #FBF5F0;
+}
+
+.dsk {
+    margin-left: 70px;
+    font-family: sans-serif;
+    font-size: 20px;
+    gap: 20px;
+    color: #604B3C;
+}
+
+.Glow-Beyond-Expectations-text {
+    margin-left: 70px;
+    font-size: 90px;
+    color: #6B4423;
+    font-weight: lighter;
+}
+
+.Shop-Collection {
+    margin-left: 70px;
+    border: 1px #F0ECE9 solid;
+    background-color: #6B4423;
+    gap: 30px;
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.learn-more-btn {
+    border: 1px #F0ECE9 solid;
+    background-color: #FFFFFF;
+    gap: 30px;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #6B4423;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 40px;
+    margin-right: 70px;
+}
+
+.Why-Women-Love-Nuvelle {
+    font-size: 50px;
+    color: #6B4423;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+.women-section {
+    background-color:  #FFFFFF;
+}
+
+.women-section-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    gap: 30px;
+}
+
+.women-section1,
+.women-section2,
+.women-section3 {
+    border: 1px #F0ECE9 solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.pg {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #75655A;
+}
+
+.circle {
+    border: 2px #FDFBF7 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F5E6DA;
+}
+
+.Signature-radiance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF5F0;
+}
+
+.Signature-radiance-left {
+    width: 500px;
+    height: auto;
+    border-radius: 40px;
+    margin-right: 70px;
+    margin-top: 80px;
+}
+.Vegan, .CrueltyFree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #F0ECE9 solid;
+    background-color: #FFFFFF;
+    gap: 30px;
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #6B4423;
+    margin-bottom: 50px;
+}
+.DermatologistTested {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #F0ECE9 solid;
+    background-color: #FFFFFF;
+    gap: 30px;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #6B4423;
+    margin-bottom: 50px;
+}
+.routine {
+    border: 1px #F0ECE9 solid;
+    background-color: #6B4423;
+    gap: 30px;
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px; }
+
+.srg {
+    font-size: 60px;
+    font-weight: lighter;
+    color:#6B4423;
+}
+.ssk {
+    font-family: sans-serif;
+    line-height: 25px;
+    color: #614E40;
+}
+.sk {
+    font-family: sans-serif;
+    color: #614E40;
+    gap: 100px;
+}
+.circle2 {
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6B4423;
+}
+.Choose-Your-Beauty-Ritual{
+    font-size: 50px;
+    margin-top: 50px;
+    color: #6B4423;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+.p3 {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #D4A373;
+}
+.Beauty {
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.Essential,.Luxury {
+    border: 1px #F0ECE9 solid;
+    padding: 70px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.Glow {
+    background-color: #6B4423;
+    border: 1px #F0ECE9 solid;
+    padding: 70px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.btn3 {
+    margin-left: 1px;
+    border: 1px #F0ECE9 solid;
+    background-color: #6B4423;
+    gap: 30px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.btn4 {
+    margin-left: 1px;
+    border: 1px #F0ECE9 solid;
+    background-color: #FFFFFF;
+    gap: 30px;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #6B4423;
+    margin-bottom: 50px;
+}
+.beautytext {
+    font-family: sans-serif;
+    color: #3B2415;
+}
+.beautytext2 {
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.grey {
+    color: #75655A;
+}
+.Customer-review {
+    height: 300px;
+    gap: 40px;
+    background-color: #FAF5F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SJ, .MP, .AW {
+    border: 1px #F0ECE9 solid;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: medium;
+    font-family: sans-serif;
+    line-height: 20px;
+    color: #3B2415;
+}
+.FAQ {
+    font-size: 45px;
+    margin-top: 50px;
+    color: #6B4423;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+.Frequently-AskedQuestions {
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5E6DA;
+}
+.FAQ1, .FAQ2, .FAQ3, .FAQ4 {
+    width: 500px;
+    height: 130px;
+    border: 1px #F0ECE9 solid;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    color: #6B4423;
+
+}
+h4 {
+    font-size: 30px ;
+    font-weight: lighter;
+    display: flex;
+    color: #6B4423;
+}
+.glow-starts-today {
+    background-color: #6B4423;
+}
+.glows {
+    margin-top: 100PX;
+    height: 100PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.glew {
+    font-family: sans-serif;
+    color: #E2DAD3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 30px;
+   gap: 30px;
+}
+.btn5 {
+    margin-left: 1px;
+    border: 1px #F0ECE9 solid;
+    background-color: #FFFFFF;
+    gap: 30px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #6B4423;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn6 {
+    margin-left: 1px;
+    border: 2px #F0ECE9 solid;
+    background-color: #6B4423;
+    gap: 30px;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rights-reserved {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 30px;
+   gap: 50px;
+}
+.reserved {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 30px;
+   gap: 50px;
+}
