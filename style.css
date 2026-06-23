@@ -12,14 +12,31 @@
 }
 
 .Premium-Beauty-Collection {
+    margin-left: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    border: 1px;
+    border-radius: 30px;
+    background-color: #FBF5F0;
+    width: 270px;
+    height: 40px;
+    margin-top: 100px;
+    color: #6B4423;
+};
+
+
+.playfair-display-dollar {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  };
 
 .hero-section-title {
     margin-top: 100px;
     margin-left: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #6B4423;
     border: 1px #F0ECE9 solid;
     width: 270px;
@@ -98,12 +115,18 @@ img {
 }
 
 .women-section1,
-.women-section2,
-.women-section3 {
+.women-section2, .women-section3 {
     border: 1px #F0ECE9 solid;
-    padding: 10px;
+    padding: 30px;
     border-radius: 15px;
+    width: 250px;
+    height: 200px;
 }
+/* .women-section3 {
+    border: 1px #F0ECE9 solid;
+    padding: 30px;
+    border-radius: 15px;
+} */
 
 h3 {
     font-size: 30px;
@@ -134,7 +157,9 @@ h3 {
     justify-content: center;
     background-color: #FAF5F0;
 }
-
+.beauty{
+    color: black;
+}
 .Signature-radiance-left {
     width: 500px;
     height: auto;
@@ -145,34 +170,34 @@ h3 {
 .Vegan, .CrueltyFree {
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: left;
     border: 1px #F0ECE9 solid;
     background-color: #FFFFFF;
-    gap: 30px;
-    width: 120px;
+    gap: 10px;
+    width: 200px;
     height: 20px;
     padding: 10px;
     border-radius: 40px;
     font-size: 15px;
     font-family: sans-serif;
     color: #6B4423;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .DermatologistTested {
     display: flex;
     align-items: center;
-    justify-content: center;
+
     border: 1px #F0ECE9 solid;
     background-color: #FFFFFF;
-    gap: 30px;
-    width: 150px;
+    gap: 10px;
+    width: 200px;
     height: 20px;
     padding: 10px;
     border-radius: 40px;
     font-size: 15px;
     font-family: sans-serif;
     color: #6B4423;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .routine {
     border: 1px #F0ECE9 solid;
@@ -180,7 +205,7 @@ h3 {
     gap: 30px;
     width: 140px;
     height: 50px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 30px;
     font-size: 15px;
     font-family: sans-serif;
@@ -204,8 +229,8 @@ h3 {
 }
 .circle2 {
    
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     background-color: #6B4423;
 }
@@ -220,8 +245,9 @@ h3 {
 .p3 {
     font-family: sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     color: #D4A373;
+    padding-right: 100px;
 }
 .Beauty {
     gap: 100px;
@@ -292,7 +318,6 @@ h3 {
 }
 .SJ, .MP, .AW {
     border: 1px #F0ECE9 solid;
-    gap: 30px;
     padding: 20px;
     border-radius: 15px;
     background-color: #FFFFFF;
@@ -309,25 +334,29 @@ h3 {
     color: #6B4423;
     font-weight: normal;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 .Frequently-AskedQuestions {
      display: flex;
      flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     background-color: #F5E6DA;
 }
 .FAQ1, .FAQ2, .FAQ3, .FAQ4 {
-    width: 500px;
-    height: 130px;
+    width: 700px;
     border: 1px #F0ECE9 solid;
-    padding: 5px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
     border-radius: 15px;
     background-color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #6B4423;
-
+    text-align: left;
+}
+.FAQ0 {
+    line-height: 1.5PX;
+    text-align: left;
 }
 h4 {
     font-size: 30px ;
@@ -339,16 +368,18 @@ h4 {
     background-color: #6B4423;
 }
 .glows {
-    margin-top: 100PX;
-    height: 100PX;
+    margin-top: 0px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+    font-size: 70px;
 }
 .glew {
     font-family: sans-serif;
     color: #E2DAD3;
+    margin-top: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -357,7 +388,7 @@ h4 {
     display: flex;
    align-items: center;
    justify-content: center;
-   padding-bottom: 30px;
+
    gap: 30px;
 }
 .btn5 {
@@ -372,7 +403,7 @@ h4 {
     font-size: 15px;
     font-family: sans-serif;
     color: #6B4423;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,7 +420,7 @@ h4 {
     font-size: 15px;
     font-family: sans-serif;
     color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -401,10 +432,46 @@ h4 {
    padding-bottom: 30px;
    gap: 50px;
 }
-.reserved {
+.reserve {
     display: flex;
-   align-items: center;
    justify-content: center;
-   padding-bottom: 30px;
-   gap: 50px;
+   color: #90827A; 
+}
+.reserved {
+    margin: 0 auto;
+    width: 800px;
+    color: #EFECE8;
+    border: 1px #EFECE8 solid;
+}
+.r-r1, .r-r2, .r-r3,.r-r4 {
+    font-family: sans-serif;
+    color: #8A7B73;
+}
+.material {
+    background-color: #FFFFFF;
+}
+.h33 {
+    color: #FFFFFF;
+}
+.star {
+        display: flex;
+        gap: 5px;
+        color: #D4A373;
+        font-size: 20px;
+}
+.image-text {
+    position: absolute;
+    top: 1400px;
+    left: 550px;
+    
+}
+
+.signature-radiance-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.spacing {
+    line-height: 15px;
 }
